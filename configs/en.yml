@@ -1,0 +1,7 @@
+help:
+  starting: Only get historical scans after <when> (ISO-8601 format)
+  ending: Only get historical scans till <when> (ISO-8601 format)
+  base: Override base URL (normally https://portal.cloudpassage.com/)
+  localca: Use local CA file (needed on Windows)
+  detailsfiles: Write details about each scan's results to a set of files locally
+  threads: Set number of threads to use downloading scan results

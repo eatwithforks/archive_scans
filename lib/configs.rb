@@ -1,6 +1,7 @@
 # encoding: utf-8
 require 'yaml'
 
+# Returns preset configs
 class Config
   class << self
     def [](key)

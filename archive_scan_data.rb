@@ -2,5 +2,6 @@
 require_relative 'lib/scans_controller'
 require_relative 'lib/settings_controller'
 require_relative 'lib/configs'
+require 'pp'
 
-puts Settings.params
+pp Config.load

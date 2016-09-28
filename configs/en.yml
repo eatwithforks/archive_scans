@@ -1,4 +1,5 @@
 help:
+  auth: Read auth info from <file>
   starting: Only get historical scans after <when> (ISO-8601 format)
   ending: Only get historical scans till <when> (ISO-8601 format)
   base: Override base URL (normally https://portal.cloudpassage.com/)

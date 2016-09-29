@@ -2,7 +2,7 @@
 require_relative 'settings_controller'
 
 # Returns argument for scans endpoint
-class QueryFetcher
+class Query
   class << self
     def fetch
       customize(filter_whitelist_params)

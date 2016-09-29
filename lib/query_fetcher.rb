@@ -20,6 +20,7 @@ class QueryFetcher
   end
 
   def customize(filtered)
+    return if filtered.empty?
     result = ''
     filtered.each { |key, value| result += "#{key}=#{value}&" }
   end
